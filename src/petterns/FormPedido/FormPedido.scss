@@ -1,0 +1,63 @@
+@keyframes showForm {
+  from {
+    display: block;
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+  }
+  to {
+    opacity: 1;
+    display: block;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.FormPedido {
+  margin-top: 15px;
+  background: #f2f2f2;
+  border-radius: 5px;
+  padding: 15px 10px 15px;
+  box-shadow: 0 1px 5px 0px rgba(00, 00, 00, 0.3);
+  .scrollBox {
+    max-height: 460px;
+    overflow: scroll;
+    .info1 {
+      display: none;
+      transition: ease 0.3s;
+      &.showForm {
+        display: block;
+        animation: showForm 0.8s forwards;
+      }
+    }
+    .info2 {
+      display: none;
+      transition: ease 0.3s;
+      &.showForm {
+        display: block;
+        animation: showForm 0.8s forwards;
+      }
+    }
+    .info3 {
+      display: none;
+      transition: ease 0.3s;
+      &.showForm {
+        display: block;
+        animation: showForm 0.8s forwards;
+      }
+    }
+  }
+  .btnForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    .ButtonCustom {
+      width: 150px;
+      height: 50px;
+      font-size: 18px;
+      &:hover {
+        color: #fff;
+        background-color: #25d26d;
+        border-color: #25d26d;
+      }
+    }
+  }
+}

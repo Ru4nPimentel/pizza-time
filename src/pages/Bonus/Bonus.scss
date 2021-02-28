@@ -1,0 +1,86 @@
+.Bonus {
+  display: block;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  .customBannerFull {
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(40%);
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+  }
+  .container-bonus {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    .bonusBox {
+      padding: 20px;
+      background: #25d26d;
+      border-radius: 10px;
+      text-align: center;
+      width: 650px;
+      box-shadow: 0 1px 4px 2px rgba(00, 00, 00, 0.4);
+      .titleBox {
+        border-bottom: 2px dashed #f2f2f2;
+        padding-bottom: 25px;
+        svg {
+          width: 120px;
+          height: auto;
+        }
+        h1 {
+          width: 115px;
+          margin: 0 auto;
+          color: #f2f2f2;
+          font-weight: normal;
+          &::after {
+            background: #f2d24b;
+          }
+        }
+      }
+      h3 {
+        color: #fff;
+        span {
+          color: #000;
+        }
+      }
+      .valorTotal {
+        h3 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  .points {
+    margin-top: 20px;
+    color: #fff;
+    strong {
+      font-size: 20px;
+      color: #fff;
+    }
+    span {
+      font-size: 25px;
+      margin-left: 15px;
+    }
+  }
+  .infoBonus {
+    ul {
+      margin-top: 15px;
+      li {
+        color: #fff;
+        font-size: 20px;
+        padding: 5px 0px;
+        strong {
+          color: #000;
+        }
+        span {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}

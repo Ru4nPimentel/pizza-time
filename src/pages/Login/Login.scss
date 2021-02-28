@@ -1,0 +1,23 @@
+.Login {
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    grid-gap: 2rem;
+    gap: 2rem;
+    .customBannerFull {
+      display: block;
+      background-size: cover;
+      background-repeat: no-repeat;
+      filter: grayscale(10%);
+    }
+    .formLoginbox {
+      max-width: 30rem;
+      padding: 1rem;
+      margin-top: 20vh;
+      h1 {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}

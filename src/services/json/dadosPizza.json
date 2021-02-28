@@ -1,0 +1,47 @@
+{
+  "tamanhoPizza": [
+    { "id": 1, "tamanho": "Grande", "preco": 12.0 },
+    { "id": 2, "tamanho": "Media", "preco": 8.0 },
+    { "id": 3, "tamanho": "Pequena", "preco": 6.0 }
+  ],
+  "tipoMassas": [
+    { "id": 1, "massa": "Massa Normal", "preco": 0 },
+    { "id": 2, "massa": "Massa de pastel", "preco": 5.0 },
+    { "id": 3, "massa": "Massa italiana", "preco": 6.0 }
+  ],
+  "sabores": [
+    {
+      "id": 1,
+      "sabor": "Muçarela",
+      "img": "pizzaMucarela.png",
+      "descricao": "Molho, muçarela, tomate em rodelas e orégano.",
+      "preco": 18.0
+    },
+    {
+      "id": 2,
+      "sabor": "Frango c/ Catupiry",
+      "img": "pizzaFrangoCatupiry.png",
+      "descricao": "Molho, muçarela, frango desfiado, catupiry e orégano.",
+      "preco": 19.0
+    },
+    {
+      "id": 3,
+      "sabor": "Portuguesa",
+      "img": "pizzaPortuguesa.png",
+      "descricao": "Molho, muçarela, presunto, calabresa, ovos, cebola, azeitonas e orégano.",
+      "preco": 19.0
+    },
+    {
+      "id": 4,
+      "sabor": "Pepperoni",
+      "img": "pizzaPepperoni.png",
+      "descricao": "Molho, muçarela, salame pepperoni fatiado e orégano.",
+      "preco": 25.0
+    }
+  ],
+  "adicionais": [
+    { "id": 1, "item": "Coca Cola 2ml", "preco": 10 },
+    { "id": 2, "item": "Pepsi 2ml", "preco": 8 },
+    { "id": 3, "item": "Coca Cola (Zero) 2ml", "preco": 10 }
+  ]
+}

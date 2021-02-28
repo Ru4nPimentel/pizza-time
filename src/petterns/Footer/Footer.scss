@@ -1,0 +1,32 @@
+footer {
+  background: #25d26d;
+  height: 300px;
+  padding-top: 50px;
+
+  .footer_nav {
+    .footer_logo {
+      display: block;
+      width: 300px;
+      margin: 0 auto;
+      text-align: center;
+      .icon_logo_footer {
+        width: 120px;
+        height: auto;
+      }
+      span {
+        display: block;
+        font-family: Lobster;
+        color: #f2f2f2;
+        font-size: 45px;
+      }
+    }
+    .footer_address {
+      text-align: center;
+      margin-top: 20px;
+      span {
+        font-size: 14px;
+        color: #f2f2f2;
+      }
+    }
+  }
+}

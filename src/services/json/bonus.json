@@ -1,0 +1,7 @@
+{
+  "bonus": [
+    { "points": 100, "premio": "Refrigerante grátis" },
+    { "points": 200, "premio": "Mini Pizza grátis" },
+    { "points": 300, "premio": "Pizza Media grátis" }
+  ]
+}

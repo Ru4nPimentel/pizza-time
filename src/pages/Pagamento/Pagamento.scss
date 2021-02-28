@@ -1,0 +1,55 @@
+.Pagamento {
+  display: block;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  .customBannerFull {
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(40%);
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+  }
+  .container-pagamento {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    .pagamentoBox {
+      padding: 20px;
+      background: #e51f2f;
+      border-radius: 10px;
+      text-align: center;
+      width: 650px;
+      box-shadow: 0 1px 4px 2px rgba(00, 00, 00, 0.4);
+      .titleBox {
+        border-bottom: 2px dashed #f2f2f2;
+        padding-bottom: 25px;
+        svg {
+          width: 120px;
+          height: auto;
+        }
+        h1 {
+          width: 220px;
+          margin: 0 auto;
+          color: #f2f2f2;
+          font-weight: normal;
+        }
+      }
+      h3 {
+        color: #fff;
+        span {
+          color: #000;
+        }
+      }
+      .valorTotal {
+        h3 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}

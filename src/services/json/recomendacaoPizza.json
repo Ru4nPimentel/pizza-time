@@ -1,0 +1,11 @@
+{
+  "pizzaDia": [
+    { "dia": 0, "idPizza": 1 },
+    { "dia": 1, "idPizza": 2 },
+    { "dia": 2, "idPizza": 3 },
+    { "dia": 3, "idPizza": 4 },
+    { "dia": 4, "idPizza": 1 },
+    { "dia": 5, "idPizza": 2 },
+    { "dia": 6, "idPizza": 3 }
+  ]
+}

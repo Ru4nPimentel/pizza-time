@@ -1,0 +1,5 @@
+vermelho - #e51f2f
+verde - #009940
+cinza - #f2f2f2
+amarelo - # F2D24B
+azul - #0C0C33
